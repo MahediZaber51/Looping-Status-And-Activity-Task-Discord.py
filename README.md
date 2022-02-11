@@ -56,4 +56,5 @@ Check the `example.py` for understanding the codes better. Thanks
 
 # Useful Links
 **[MY WEBSITE](https://zealtyro.com)**
+
 **[YOUTUBE CHANNEL](https://youtube.com/ZealTyro)**
