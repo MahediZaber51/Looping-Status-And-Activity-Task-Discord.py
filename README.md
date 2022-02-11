@@ -3,6 +3,7 @@ Create a looping status task for your discord.py or all other forks of discord.p
 
 # Step 1 - Getting Started 
 First of all setup the basic bot. Additionally you can check the example.py [if you are using other forks of discord.py then just change the `discord` text from all the over the codes into that fork's name]
+
 Also make sure to import these:
 ```
 import discord
