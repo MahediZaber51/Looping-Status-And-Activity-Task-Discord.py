@@ -52,4 +52,8 @@ discord.Activity(type=discord.ActivityType.listening, name="name of the music")
 #watching Activity
 discord.Activity(type=discord.ActivityType.watching, name="name of the movie")
 ```
-check the example.py for understanding the codes better. Thanks
+Check the `example.py` for understanding the codes better. Thanks
+
+# Useful Links
+**[MY WEBSITE](https://zealtyro.com)**
+**[YOUTUBE CHANNEL](https://youtube.com/ZealTyro)**
