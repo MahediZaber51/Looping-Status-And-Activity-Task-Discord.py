@@ -11,22 +11,18 @@ First of all in bot event: `on_ready` include a new line ```status_task.start()`
 async def on_ready():
     status_task.start() #to start the looping task
 ```
-then we need to setup the task. now after that add:
+then we need to setup the task. now after that add this structure:
 ```
 @tasks.loop()
 async def status_task() -> None:
-    await bot.change_presence(status=discord.Status.dnd, activity=discord.Game(" with electricity ⚡"))
-    await asyncio.sleep(60)
-    await bot.change_presence(activity=discord.Streaming(name="Official Server With Dedication 🥰", url="https://zealtyro.com"))
-    await asyncio.sleep(60)
-    await bot.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.listening, name="commands | Type !help for help 💁"))
-    await asyncio.sleep(60)
-    memberCount = str(len(list(bot.get_all_members())))
-    await bot.change_presence(status=discord.Status.idle, activity=discord.Activity(type=discord.ActivityType.watching, name=memberCount+" members enjoying my shocks 😳"))
+    #put the upcoming codes here
 ```
-Now let's understand what we coded there:
-`await bot.change_presence(status=STATUS-HERE, activity=ACTIVITY-HERE)` this is the main format.
-we just need to change the `STATUS-HERE` and `ACTIVITY-HERE` text to set a status with custom activity.
+Now let's complete the code:
+```
+await bot.change_presence(status=STATUS-HERE, activity=ACTIVITY-HERE)
+await asyncio.sleep(TIME)
+```
+This is the main format and by adding this multiple times you will be able to create a looping task. We just need to change the `STATUS-HERE` and `ACTIVITY-HERE` text to set a status with custom activity.
 Here's the list of all available Statuses:
 ```
 discord.Status.dnd #to set status to DND
@@ -35,5 +31,12 @@ discord.Status.online #to set status to Online
 ```
 Here's the list of all available Activity Types:
 ```
+#streaming activity. put name of the stream and the twitch url
+discord.Streaming(name="stream name", url="stream url")
 
+# Gaming activity. put the name of the game
+discord.Game("Name of the Game")
+
+#listening activity. put the name of the song
+disnake.Activity(type=discord.ActivityType.listening, name="name of the music")
 ```
