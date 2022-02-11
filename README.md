@@ -1,8 +1,8 @@
 # Looping-Status-Task-Discord.py
-Create a looping status task for your discord.py or disnake or pycord bot. All types of status types included.
+Create a looping status task for your discord.py or all other forks of discord.py such as disnake, pycord, etc bot. All types of status types included.
 
 # Step 1 - Getting Started 
-First of all setup the basic bot. Additionally you can check the example.py
+First of all setup the basic bot. Additionally you can check the example.py [if you are using other forks of discord.py then just change the `discord` text from all the over the codes into that fork's name]
 # Step 2 - Setting Up The Task
 First of all in bot event: `on_ready` include a new line ```status_task.start()```,
 [if you noy added then add:
