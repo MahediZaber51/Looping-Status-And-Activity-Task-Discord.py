@@ -1,6 +1,11 @@
 # Looping-Status-Task-Discord.py
 Create a looping status task for your discord.py or all other forks of discord.py such as disnake, pycord, etc bot. All types of status types included.
-[Host your bot 24/7 online for free](https://www.zealtyro.com/how-to-host-a-python-or-node-js-app-24-7-online-for-free/)
+**Learn How you can host your Discord Bots 24/7 Online for free of cost Here:**
+https://www.zealtyro.com/how-to-host-a-python-or-node-js-app-24-7-online-for-free/
+
+**Monitor Uptime and Create Status Pages of your Websites, Bots, Domains status for free at:**
+https://uptime.zealtyro.com/
+
 # Step 1 - Getting Started 
 First of all setup the basic bot. Additionally you can check the example.py [if you are using other forks of discord.py then just change the `discord` text from all the over the codes into that fork's name]
 
